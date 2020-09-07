@@ -1,0 +1,10 @@
+# status
+git config --global alias.st status
+
+# checkout
+git config --global alias.co checkout
+
+# log
+git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(blue)<%an>%Creset' --abbrev-commit --date=relative
+
+
